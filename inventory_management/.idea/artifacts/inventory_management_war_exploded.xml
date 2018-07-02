@@ -8,8 +8,6 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
-          <element id="file-copy" path="$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar" />
           <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.1" />
@@ -39,6 +37,21 @@
           <element id="library" level="project" name="Maven: org.glassfish.jersey.media:jersey-media-json-jackson:2.27" />
           <element id="library" level="project" name="Maven: org.glassfish.jersey.media:jersey-media-moxy:2.27" />
           <element id="library" level="project" name="Maven: org.glassfish:javax.json:1.0.4" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../blimpit-utils-1/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../blimpit-utils-1/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
+          <element id="library" level="project" name="Maven: org.blimpit.utils:mysqlconnector:1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.media:jersey-media-multipart:2.27" />
+          <element id="library" level="project" name="Maven: org.jvnet.mimepull:mimepull:1.9.6" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../blimpit-utils-1/modules/handlers/filehandler/target/filehandler-1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.5" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.5" />
+          <element id="file-copy" path="$USER_HOME$/Java_supports/apache-tomcat-8.5.31/lib/mysqlconnector-1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="$USER_HOME$/Java_supports/apache-tomcat-8.5.31/lib/filehandler-1.0-SNAPSHOT.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="inventory_management/web/Web" />

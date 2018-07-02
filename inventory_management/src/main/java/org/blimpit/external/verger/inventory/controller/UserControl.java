@@ -1,24 +1,24 @@
 package org.blimpit.external.verger.inventory.controller;
 
 import org.blimpit.external.verger.inventory.config.ApplicationProperties;
-import org.blimpit.external.verger.inventory.model.*;
+import org.blimpit.external.verger.inventory.model.Log;
 import org.blimpit.external.verger.inventory.utils.Constant;
 import org.blimpit.utils.connectors.Connector;
 import org.blimpit.utils.connectors.ConnectorException;
 import org.blimpit.utils.connectors.mysql.MySQLConnector;
 import org.blimpit.utils.connectors.mysql.Record;
-import org.blimpit.utils.usermanagement.Constants;
-import org.blimpit.utils.usermanagement.model.Credential;
 import org.blimpit.utils.usermanagement.model.Feature;
 import org.blimpit.utils.usermanagement.model.ResponseStatus;
 import org.blimpit.utils.usermanagement.model.User;
 
-
-import javax.ws.rs.core.Application;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 //import javax.ws.rs.core.Response;
-import java.util.*;
 
 public class UserControl {
 
