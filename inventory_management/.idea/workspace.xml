@@ -8,83 +8,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8011dac9-1c9b-4852-8079-0464d3e8c8dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/ApplicationProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/UserControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Feature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/LoginStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/UsrMgtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../genso/backendservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../genso/backendservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../genso/genso.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_blimpit_utils_mysqlconnector_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_multipart_2_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Filetest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/DocumentCtrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FileModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FilePathModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/FileUploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/admin/Addmindoc.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/controller/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/controller/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/gui/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserAuth.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserManager.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserReg$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserReg$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserReg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserReg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserReg.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserReg.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/build/classes/user/UserVeiwe.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/dist/README.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/dist/README.TXT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/admin/Addmindoc.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/admin/Addmindoc.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/admin/Addmindoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/admin/Addmindoc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/controller/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/controller/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/gui/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/gui/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/gui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/gui/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserAuth.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserAuth.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserManager.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserManager.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserReg.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserReg.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserReg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserReg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserVeiwe.form" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserVeiwe.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserVeiwe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Inventory System_ver5/src/user/UserVeiwe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/out/artifacts/backendservices_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/out/artifacts/backendservices_war_exploded/WEB-INF/classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/out/artifacts/backendservices_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventry/config/InvMgtServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/out/artifacts/backendservices_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventry/service/UsrMgtService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/out/artifacts/backendservices_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/src/main/java/org/blimpit/external/verger/inventry/config/InvMgtServiceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/src/main/java/org/blimpit/external/verger/inventry/service/UsrMgtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/src/main/resources/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendservices/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/inventory_management_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/inventory_management_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0_b42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_management.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/example/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/example/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/example/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/example/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/example/config.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/example/config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/config/ApplicationProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/config/ApplicationProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/controller/UserControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/controller/UserControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/Feature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/Feature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/LoginStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/LoginStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/ResponseStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/ResponseStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/service/UsrMgtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/service/UsrMgtService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/utils/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/classes/org/blimpit/external/verger/inventory/utils/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/lib/mysqlconnector-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/lib/mysqlconnector-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/lib/usermanagement-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/inventory_management_war_exploded/WEB-INF/lib/usermanagement-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/inventory_management/example/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/UserControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/UserControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/utils/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/example/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/example/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/example/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/example/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/example/config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/example/config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/config/ApplicationProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/config/ApplicationProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/controller/UserControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/controller/UserControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/Feature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/Feature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/LoginStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/LoginStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/ResponseStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/ResponseStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/service/UsrMgtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/service/UsrMgtService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/utils/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/blimpit/external/verger/inventory/utils/Constant.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,61 +104,100 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UsrMgtService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/UsrMgtService.java">
+    <leaf>
+      <file leaf-file-name="FileUploadService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/FileUploadService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="144" column="37" lean-forward="true" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
+            <state relative-caret-position="285">
+              <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2054#2055#0" expanded="true" />
-                <element signature="e#2087#2088#0" expanded="true" />
-                <element signature="e#2348#2349#0" expanded="true" />
-                <element signature="e#2402#2403#0" expanded="true" />
-                <element signature="e#3009#3010#0" expanded="true" />
-                <element signature="e#3064#3065#0" expanded="true" />
+                <element signature="e#2065#2118#0" />
+                <element signature="e#2151#2238#0" />
+                <element signature="e#2590#2591#0" expanded="true" />
+                <element signature="e#2624#2625#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Log.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Log.java">
+      <file leaf-file-name="UserMgtServiceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FileModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="32" />
               <folding>
-                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentCtrl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/DocumentCtrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="112" column="133" selection-start-line="112" selection-start-column="133" selection-end-line="112" selection-end-column="133" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilePathModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FilePathModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
                 <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserControl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/UserControl.java">
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserManager.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/user/UserManager.class">
+      <file leaf-file-name="Constant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/utils/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="171" column="23" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -174,6 +207,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -185,7 +219,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -206,18 +240,32 @@
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/RegistrationStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/ResponseStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/UserMgtService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/utils/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/FeatureControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FeaturesMapping.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/FeaturesMappControl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/features/FraturesMng.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/Users/UsersManagerControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Log.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/UsrMgtService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/UserControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/VergerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/UsrMgtService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/Filetest.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/DcumentCtrl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/FileHandleingClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/Client/FileHandleingClient.java" />
+        <option value="$PROJECT_DIR$/../../../untitled/src/main/java/FileHandleingClient.java" />
+        <option value="$PROJECT_DIR$/../../../untitled/src/main/java/Client/FileHandleingClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/TryFile.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FileModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FilePaths.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/FileUploadService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/utils/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FilePathModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/DocumentCtrl.java" />
       </list>
     </option>
   </component>
@@ -255,8 +303,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="67" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="993" />
     <option name="y" value="25" />
     <option name="width" value="927" />
     <option name="height" value="1055" />
@@ -268,8 +316,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,39 +401,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Verger-BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inventory_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Verger-BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inventory_management" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Verger-BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inventory_management" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/blimpit-utils/modules/dbconnectors/mysqlconnector" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../blimpit-externals-1/genso/backendservice" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.10775862" />
     <property name="project.structure.side.proportion" value="0.33494556" />
-    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -406,7 +438,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.30 (Ubuntu)">
+    <configuration name="TryFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.TryFile" />
+      <module name="inventory_management" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.blimpit.external.verger.inventory.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -426,6 +469,7 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Filetest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Verger-BackEnd/example/Filetest.html" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -521,6 +565,17 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.5.30 (Ubuntu)" />
+      <item itemvalue="JavaScript Debug.Filetest.html" />
+      <item itemvalue="Application.TryFile" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TryFile" />
+        <item itemvalue="JavaScript Debug.Filetest.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -539,11 +594,16 @@
       <workItem from="1529547209211" duration="26424000" />
       <workItem from="1529598457866" duration="22182000" />
       <workItem from="1529892339542" duration="24703000" />
+      <workItem from="1530159796806" duration="13074000" />
+      <workItem from="1530178383938" duration="9140000" />
+      <workItem from="1530241532652" duration="6459000" />
+      <workItem from="1530251602883" duration="12824000" />
+      <workItem from="1530499546338" duration="19391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159499000" />
+    <option name="totallyTimeSpent" value="220387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,14 +615,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5013835" side_tool="true" weight="0.5140998" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5030437" side_tool="true" weight="0.12472885" />
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4997233" weight="0.329718" />
       <window_info anchor="right" id="Maven Projects" order="11" weight="0.32982844" />
-      <window_info anchor="right" id="CDI" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -570,29 +629,66 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24958494" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.38828632" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.4002169" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997233" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4991699" weight="0.335141" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4986165" weight="0.2733189" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.4997233" weight="0.329718" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4997233" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986165" visible="true" weight="0.30043384" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969563" visible="true" weight="0.18655097" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4997233" weight="0.329718" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23464306" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12617598" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="JSF" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="CDI" order="6" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4997233" weight="0.329718" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info id="Image Layers" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969563" visible="true" weight="0.34924078" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24958494" />
+      <window_info anchor="right" id="JSF" order="0" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4997233" weight="0.329718" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5030437" side_tool="true" weight="0.12472885" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4986165" weight="0.2733189" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997233" weight="0.329718" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.4997233" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4997233" weight="0.329718" />
+      <window_info anchor="right" id="Maven Projects" order="11" weight="0.32982844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09352518" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32982844" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.4002169" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -602,7 +698,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="57" />
+      <option name="time" value="90" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -610,115 +706,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/CORSFilter.java" />
-    <entry file="jar://$USER_HOME$/jarfiles/jaxrs-ri-2.27/jaxrs-ri/api/javax.ws.rs-api-2.1.jar!/javax/ws/rs/container/ContainerRequestContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/AuthenticationFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/utils/ResponseCodes.java" />
-    <entry file="file://$PROJECT_DIR$/inventory_management.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/jarfiles/jaxrs-ri-2.27/jaxrs-ri/api/javax.ws.rs-api-2.1.jar!/javax/ws/rs/core/Response.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3690">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/model/LoginStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/model/Credential.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/RegistrationStatus.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/model/RegistrationStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/ResponseStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/config/ApplicationProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/jarfiles/jaxrs-ri-2.27/jaxrs-ri/lib/jersey-server.jar!/org/glassfish/jersey/server/spi/internal/ResourceMethodInvocationHandlerProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/Constants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/UserMgtService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/FeatureControl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/FeaturesMappControl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FeaturesMapping.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Feature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/extras/glassfish-embedded-web/3.1.1/glassfish-embedded-web-3.1.1.jar!/org/apache/jasper/xmlparser/ParserUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -726,31 +713,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/model/Feature.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/model/Feature.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/features/FraturesMng.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/ApplicationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/designation/DesignationManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/designation/DesignationManager.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/Users/UsersManagerControl.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -759,30 +724,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/utils/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/model/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/model/ResponseStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/model/User.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/model/ResponseStatus.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -797,139 +740,256 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/ConnectorException.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/Constants.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/Connector.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/Connection.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/config.properties" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/feature/FeatureManager.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/mysql/MySQLConnection.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/mysql/MySQLConnector.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/mysql/Record.class" />
+    <entry file="jar://$USER_HOME$/jarfiles/jaxrs-ri-2.27/jaxrs-ri/lib/jersey-server.jar!/org/glassfish/jersey/server/model/internal/ResourceMethodInvocationHandlerFactory.class" />
+    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/user/UserManager.class" />
+    <entry file="file://$PROJECT_DIR$/inventory_management.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/ConnectorException.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/ApplicationProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/VergerService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/UsrMgtService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="144" column="37" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../blimpit-utils-1/modules/handlers/filehandler/target/filehandler-1.0-SNAPSHOT.jar!/org/blimpit/utils/filehandler/exceptions/FileHandlerException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/Constants.class">
+    <entry file="jar://$PROJECT_DIR$/../../blimpit-utils-1/modules/handlers/filehandler/target/filehandler-1.0-SNAPSHOT.jar!/org/blimpit/utils/filehandler/BlimpItFileHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="-2880">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/Connector.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/TryFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/Connection.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="975">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/Filetest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.java">
+    <entry file="file://$PROJECT_DIR$/../../../untitled/src/main/java/Client/FileHandleingClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/feature/FeatureManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/mysql/MySQLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="188" selection-start-line="188" selection-end-line="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/mysql/MySQLConnector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/dbconnectors/mysqlconnector/target/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/mysql/Record.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/jarfiles/jaxrs-ri-2.27/jaxrs-ri/lib/jersey-server.jar!/org/glassfish/jersey/server/model/internal/ResourceMethodInvocationHandlerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../blimpit-utils/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/user/UserManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="171" column="23" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/UsrMgtService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="144" column="37" lean-forward="true" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2054#2055#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2348#2349#0" expanded="true" />
-            <element signature="e#2402#2403#0" expanded="true" />
-            <element signature="e#3009#3010#0" expanded="true" />
-            <element signature="e#3064#3065#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="56" lean-forward="true" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/UserControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+        <state relative-caret-position="15">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/Feature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java_supports/apache-tomcat-8.5.31/lib/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/mysql/MySQLConnector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java_supports/apache-tomcat-8.5.31/lib/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/Connector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java_supports/apache-tomcat-8.5.31/lib/mysqlconnector-1.0-SNAPSHOT.jar!/org/blimpit/utils/connectors/mysql/MySQLConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../blimpit-utils-1/modules/usermanagement/target/usermanagement-1.0-SNAPSHOT.jar!/org/blimpit/utils/usermanagement/config/ApplicationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/utils/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FilePathModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/config/UserMgtServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/model/FileModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.27/jersey-server-2.27.jar!/org/glassfish/jersey/server/model/ResourceMethodInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java_supports/apache-tomcat-8.5.31/lib/filehandler-1.0-SNAPSHOT.jar!/org/blimpit/utils/filehandler/FileHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="1267" column="25" selection-start-line="1267" selection-start-column="25" selection-end-line="1267" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="2227" column="16" selection-start-line="2227" selection-start-column="16" selection-end-line="2227" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java_supports/apache-tomcat-8.5.31/lib/filehandler-1.0-SNAPSHOT.jar!/org/blimpit/utils/filehandler/BlimpItFileHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="203" column="37" lean-forward="true" selection-start-line="203" selection-start-column="37" selection-end-line="203" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/controller/DocumentCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="112" column="133" selection-start-line="112" selection-start-column="133" selection-end-line="112" selection-end-column="133" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/blimpit/external/verger/inventory/service/FileUploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2065#2118#0" />
+            <element signature="e#2151#2238#0" />
+            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
           </folding>
         </state>
       </provider>

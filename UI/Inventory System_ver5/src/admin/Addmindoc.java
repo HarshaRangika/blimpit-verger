@@ -5,8 +5,20 @@
  */
 package admin;
 
+import controller.ApiConnector;
+import controller.FileHandleingClient;
 import controller.FileHandler;
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
 import java.util.Vector;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.table.DefaultTableModel;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 /**
  *
@@ -18,21 +30,50 @@ public class Addmindoc extends javax.swing.JFrame {
      * Creates new form Addmindoc
      */
     private String jframeName;
-    
-    public Addmindoc(String _jframe) {
+
+    public Addmindoc(String jframeName) {
         initComponents();
-        String now = lbltitle.getText();
         /// Load the existing Files
-        lbltitle.setText(now+" "+_jframe);
-        this.jframeName = _jframe;  
-        
+        lbltitle.setText(lbltitle.getText() + " " + jframeName);
+        this.jframeName = jframeName;
+        loadform();
+
     }
-    
-    
-    
+
     public Addmindoc() {
         initComponents();
         this.jframeName = "No file Name";
+    }
+
+    private void loadform() {
+
+        ApiConnector apiHandler = new ApiConnector();
+        String get = apiHandler.get("http://localhost:8080/api/fileHandler/getDepartmentFiles?section=" + jframeName);
+        System.out.println(get);
+
+        JSONParser jspaser = new JSONParser();
+        JSONArray jsArray = new JSONArray();
+        DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
+
+        try {
+            jsArray = (JSONArray) jspaser.parse(get);
+            int sizeArray = jsArray.size();
+            for (int i = 0; i < sizeArray; i++) {
+                JSONObject jsObject = new JSONObject();
+                Vector row = new Vector();
+                jsObject = (JSONObject) jsArray.get(i);
+
+                row.add(0, jsObject.get("fileName"));
+                row.add(1, jsObject.get("filePath"));
+
+                model.addRow(row);
+
+            }
+
+        } catch (ParseException ex) {
+            Logger.getLogger(Addmindoc.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
     }
 
     /**
@@ -58,16 +99,21 @@ public class Addmindoc extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"D:\\Libraries\\verg\\productA"},
-                {"D:\\Libraries\\verger\\productB"},
-                {"D:\\Libraries\\verger\\productC"},
-                {"D:\\Libraries\\verger\\productA"}
+                {null, "D:\\Libraries\\verg\\productA"},
+                {null, "D:\\Libraries\\verger\\productB"},
+                {null, "D:\\Libraries\\verger\\productC"},
+                {null, "D:\\Libraries\\verger\\productA"}
             },
             new String [] {
-                "File Name"
+                "File Name", "File Name"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
+        if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setMinWidth(20);
+            jTable1.getColumnModel().getColumn(0).setPreferredWidth(150);
+            jTable1.getColumnModel().getColumn(0).setMaxWidth(200);
+        }
 
         lbltitle.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -85,6 +131,11 @@ public class Addmindoc extends javax.swing.JFrame {
         btndelete.setText("Delete");
 
         btnprint.setText("Print");
+        btnprint.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnprintActionPerformed(evt);
+            }
+        });
 
         btnOk.setText("Ok");
         btnOk.addActionListener(new java.awt.event.ActionListener() {
@@ -147,14 +198,38 @@ public class Addmindoc extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnaddFilesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaddFilesActionPerformed
+
         FileHandler filehandler = new FileHandler(jframeName);
-        String fileName = filehandler.fileName(this);
-        jTable1.getModel().setValueAt(fileName, jTable1.getModel().getRowCount()-1, 0);
+        String filePath = filehandler.fileName(this);
+        System.out.println(filePath);
+
+        if (jframeName.equals("No file Name")) {
+
+//            FileHandleingClient fhc = new FileHandleingClient();
+//            fhc.uploadFiles(filePath, "http://localhost:8080/api/fileHandler/fileUploader?destination=" + jframeName);
+//            
+            String Data[] = filePath.split("/");
+            String fileName = Data[Data.length-1];
+            System.out.println(fileName);
+            fileName = fileName.substring(0,fileName.indexOf("."));
+            System.out.println(fileName);
+            
+            // Add to the document db
+            JSONObject jsobj = new JSONObject();
+            //jsobj.put("", Data)
+        }
+
+        
+        //jTable1.getModel().setValueAt(fileName, jTable1.getModel().getRowCount()-1, 0);
     }//GEN-LAST:event_btnaddFilesActionPerformed
 
     private void btnOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOkActionPerformed
         this.dispose();
     }//GEN-LAST:event_btnOkActionPerformed
+
+    private void btnprintActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnprintActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnprintActionPerformed
 
     /**
      * @param args the command line arguments
