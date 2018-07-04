@@ -5,7 +5,7 @@
  */
 package user;
 
-import controller.Client;
+import controller.UsermangementClient;
 import java.io.UnsupportedEncodingException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -189,7 +189,7 @@ public class UserReg extends javax.swing.JFrame {
     private void btnsubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsubmitActionPerformed
 
         JSONObject jSONObject = new JSONObject();
-        Client client = new Client();
+        UsermangementClient client = new UsermangementClient();
         if (psdPass.getText().equals(psdconPass.getText())) {
 
             if (cmbdesig.getSelectedIndex() == 0) {

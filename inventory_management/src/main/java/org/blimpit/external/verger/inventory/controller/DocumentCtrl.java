@@ -17,10 +17,10 @@ import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 
 public class DocumentCtrl {
 
@@ -55,6 +55,10 @@ public class DocumentCtrl {
 
     public Response SaveFile(InputStream uploadedInputStream, FormDataContentDisposition fileDetail, String destinationLocation, String saveto) {
 
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yy/MM/dd");
+        Date now = Date.from(LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant());
+        String y = String.format("%1$ty/%1$tm/%1$td", now);
+
         System.out.println(serverPath + "/" + destinationLocation);
         String temp = serverPath + "/" + destinationLocation;
 
@@ -62,10 +66,23 @@ public class DocumentCtrl {
 
         try {
             storefile = fileHandler.copyFile(uploadedInputStream, temp);
+            String data[] = temp.split("/");
+
+            FileModel fileModel = new FileModel();
+
+            fileModel.setFilePath(temp);
+            fileModel.setFileName(data[data.length - 1]);
+            fileModel.setFileId(data[data.length - 1]);
+            fileModel.setCreationDate(y);
+            fileModel.setSection(data[data.length - 2]);
+            setFiletodb(fileModel);
+
         } catch (FileHandlerException e) {
             e.printStackTrace();
             return Response.status(Response.Status.BAD_REQUEST).entity(e.toString()).build();
         }
+
+        System.out.println("Temp Value : " + temp);
 
         if (storefile) {
             return Response.ok("{\"msg\":\"New Entry was Inserted\"}", MediaType.APPLICATION_JSON).build();
@@ -85,7 +102,11 @@ public class DocumentCtrl {
             records = connector.executeQuery("SELECT " + documentPath + " FROM " + tableDocument + " WHERE "
                     + this.section + "=\"" + section + "\" and " + this.documentName + "=" + fileName + ";", map);
             for (int i = 0; i < records.length; i++) {
+
                 filePath = records[i].getRecordAttributes().get(documentPath);
+
+                System.out.println(filePath);
+
             }
             System.out.println(filePath);
         } catch (ConnectorException e) {
@@ -108,9 +129,8 @@ public class DocumentCtrl {
         int dataSize = Data.length;
 
 
-
         try {
-            filemove = fileHandler.copyFile(filePathModel.getLocalFileLocation(), filePathModel.getDestination()+"/"+Data[dataSize-1]);
+            filemove = fileHandler.copyFile(filePathModel.getLocalFileLocation(), filePathModel.getDestination() + "/" + Data[dataSize - 1]);
         } catch (FileHandlerException e) {
             e.printStackTrace();
             return Response.status(Response.Status.BAD_REQUEST).entity(e.toString()).build();

@@ -40,7 +40,7 @@ import org.apache.http.StatusLine;
  *
  * @author Tharusha
  */
-public class Client {
+public class UsermangementClient {
 
     public String encrypt(String pass) throws UnsupportedEncodingException {
         MessageDigest digest = null;

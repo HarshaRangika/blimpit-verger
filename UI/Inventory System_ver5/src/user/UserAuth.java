@@ -6,7 +6,7 @@
 package user;
 
 import controller.ApiConnector;
-import controller.Client;
+import controller.UsermangementClient;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -418,7 +418,7 @@ public class UserAuth extends javax.swing.JFrame {
         JSONObject jsonobjectFEATURES2 = new JSONObject();
         JSONObject jsonobjectUser = new JSONObject();
         
-        Client client = new Client();
+        UsermangementClient client = new UsermangementClient();
         
         jsonobjectUser.put("username",uname);
         jsonobjectUser.put("registrationStatus",Authorization);
