@@ -612,7 +612,7 @@ public class AddProductsQC extends javax.swing.JFrame {
     }//GEN-LAST:event_lblfilenameMouseClicked
 
     private void btnattachActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnattachActionPerformed
-        FileHandler filehandler = new FileHandler("QC Files");
+        FileHandler filehandler = new FileHandler("QC Files",""); /////////////////////////////////////////////
         String fileName = filehandler.fileName(this);
         lblfilename.setText(fileName);
     }//GEN-LAST:event_btnattachActionPerformed

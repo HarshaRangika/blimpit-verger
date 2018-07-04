@@ -25,7 +25,7 @@ public class FileUploadService {
      * @param enabled             true
      * @param uploadedInputStream Required file in the form of input
      * @param fileDetail          File details like name
-     * @return
+     * @return URL example: localhost:8080/api/fileHandler/fileUploader?destination = <Folder_Name>
      */
 
     @POST
@@ -37,15 +37,13 @@ public class FileUploadService {
                                 @FormDataParam("file") FormDataContentDisposition fileDetail) {
 
         String destinationLocation = destination + "/" + fileDetail.getFileName().substring(0, fileDetail.getFileName().indexOf("."));
-
         return documentCtrl.SaveFile(uploadedInputStream, fileDetail, destinationLocation, destination); //Response.status(200).entity(output).build();
-
     }
 
     /**
      * @param section  Department
      * @param fileName Name of the file
-     * @return
+     * @return URL example: localhost:8080/api/fileHandler/getFile?section=<Section_Folder_Name>&name=<Name Of the File>
      */
 
     @GET
@@ -54,22 +52,25 @@ public class FileUploadService {
     public Response downloadFile(@QueryParam("section") String section,
                                  @QueryParam("name") String fileName) {
 
-//        System.out.println("Section : " + section);
-//        System.out.println("Name : " + fileName);
+        System.out.println("Section : " + section);
+        System.out.println("Name : " + fileName);
 
 //        return Response.ok("Section : "+Section, MediaType.APPLICATION_JSON).build();
 //                .header("Content-Disposition",  file.getName())
 //                .build();
-
         return documentCtrl.getFileFromServer(section, "\"" + fileName + "\"");
-
     }
+
+    /**
+     * @param filePathModel
+     * @return URL example: localhost:8080/api/fileHandler/moveFile
+     */
 
     @POST
     @Path("/moveFile")
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response moveFile(FilePathModel filePathModel){
+    public Response moveFile(FilePathModel filePathModel) {
         return documentCtrl.moveFile(filePathModel);
     }
 
@@ -81,18 +82,16 @@ public class FileUploadService {
     public List<FileModel> getFilesBySection(@QueryParam("section") String section) {
 
         return documentCtrl.getFilesBySection(section);
-
     }
 
     @POST
     @Path("/createDbEntry")
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response setFiletodb(FileModel fileModel){
+    public Response setFiletodb(FileModel fileModel) {
 
         return documentCtrl.setFiletodb(fileModel);
 
     }
-
 
 }

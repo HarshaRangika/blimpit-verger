@@ -20,12 +20,9 @@ public class FileHandleingClient {
      * @return
      */
    
-   
-
     public String uploadFiles(String filePath,String URL){
 
         boolean fileUploadStatus = false;
-
         try {
             //bpfh.copyFile(fileLocation,newLocation);
             fileUploadStatus = fileHandler.uploadFileToService(filePath, URL);
@@ -53,6 +50,9 @@ public class FileHandleingClient {
 
     public String getFileFromServer(String url,String destinationPath){
 
+//        System.out.println("url : "+url);
+//        System.out.println("Destination : "+destinationPath);
+        
         boolean fileDownloadStatus = false;
 
         try {
@@ -62,7 +62,7 @@ public class FileHandleingClient {
             e.printStackTrace();
         }
 
-        System.out.println("Boolean Out put of the system : "+fileDownloadStatus);
+        //System.out.println("Boolean Out put of the system : "+fileDownloadStatus);
 
         if(fileDownloadStatus){
             return "Status: success";

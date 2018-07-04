@@ -5,19 +5,73 @@
  */
 package admin;
 
+import controller.ApiConnector;
+import controller.UsermangementClient;
+import controller.FileHandleingClient;
+import controller.FileHandler;
+import java.util.Vector;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
 /**
  *
  * @author neeshad
  */
 public class ArchiveDocumentViewer extends javax.swing.JFrame {
 
+    private String section;
+    
+    private int selectedRow = 0;
+    private int selectedColumn = 0;
+
     /**
      * Creates new form ArchiveDocumentViewer
      */
-    public ArchiveDocumentViewer() {
+    public ArchiveDocumentViewer(String section) {
         initComponents();
+        this.section = section;
         String userDir = System.getProperty("user.home");
-        System.out.println(userDir);
+        System.out.println(userDir + "/");
+        loadform();
+    }
+
+    private void loadform() {
+
+        ApiConnector apiconnecter = new ApiConnector();
+        String get = apiconnecter.get("http://localhost:8080/api/fileHandler/getDepartmentFiles?section=" + section);
+        System.out.println(get);
+
+        JSONParser jspaser = new JSONParser();
+        JSONArray jsarray = new JSONArray();
+
+        DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
+        
+        
+        try {
+            jsarray = (JSONArray) jspaser.parse(get);
+            int arraysize = jsarray.size();
+            for (int i = 0; i < arraysize; i++) {
+                JSONObject jsobj = new JSONObject();
+                Vector row = new Vector();
+                jsobj = (JSONObject) jsarray.get(i);
+                
+                row.add(0,jsobj.get("fileName"));
+                row.add(1,jsobj.get("filePath"));
+                
+                model.addRow(row);
+                
+                System.out.println(jsobj);
+            }
+        } catch (ParseException ex) {
+            Logger.getLogger(ArchiveDocumentViewer.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
     }
 
     /**
@@ -31,15 +85,14 @@ public class ArchiveDocumentViewer extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        btnaddToArchive = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null}
+
             },
             new String [] {
                 "File Name", "File Path"
@@ -53,6 +106,11 @@ public class ArchiveDocumentViewer extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
+        jTable1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTable1MouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
             jTable1.getColumnModel().getColumn(0).setMinWidth(20);
@@ -60,13 +118,32 @@ public class ArchiveDocumentViewer extends javax.swing.JFrame {
             jTable1.getColumnModel().getColumn(0).setMaxWidth(200);
         }
 
+        btnaddToArchive.setText("Add Files toArchive");
+        btnaddToArchive.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnaddToArchiveActionPerformed(evt);
+            }
+        });
+
+        jButton2.setText("Ok");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 519, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 519, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(btnaddToArchive)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButton2)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -74,11 +151,58 @@ public class ArchiveDocumentViewer extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 437, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(99, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnaddToArchive)
+                    .addComponent(jButton2))
+                .addContainerGap())
         );
 
-        pack();
+        setSize(new java.awt.Dimension(553, 578));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnaddToArchiveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaddToArchiveActionPerformed
+        
+        
+        FileHandler filehandler = new FileHandler("Server","/home/neeshad/Desktop/Blimpit_GIT/blimpit-verger/TestFolder/Local");
+        String fileName = filehandler.fileName(this);
+        
+       ApiConnector apiConnector = new ApiConnector();
+       JSONObject jsobj = new JSONObject();
+       jsobj.put("localFileLocation",fileName);
+       jsobj.put("destination", "/home/neeshad/Desktop/Blimpit_GIT/blimpit-verger/TestFolder/Server/Achive/"+section);
+       
+        String post = apiConnector.post("http://localhost:8080/api/fileHandler/moveFile", jsobj);
+       
+        System.out.println(post);
+       
+       
+       
+        
+        
+        
+    }//GEN-LAST:event_btnaddToArchiveActionPerformed
+
+    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
+                
+        DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
+        JTable source = (JTable) evt.getSource();
+        int row = source.rowAtPoint(evt.getPoint());
+        int colum = source.columnAtPoint(evt.getPoint());
+
+        this.selectedRow = row;
+        this.selectedColumn = colum;
+
+        System.out.println("table value :" + model.getValueAt(row, 1));
+        FileHandler file = new FileHandler(section, model.getValueAt(row, 1).toString());
+        System.out.println(file.openFile(model.getValueAt(row, 1).toString()));        
+        
+    }//GEN-LAST:event_jTable1MouseClicked
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+       this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -110,12 +234,14 @@ public class ArchiveDocumentViewer extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ArchiveDocumentViewer().setVisible(true);
+                new ArchiveDocumentViewer("Finances").setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnaddToArchive;
+    private javax.swing.JButton jButton2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables

@@ -35,7 +35,8 @@ public class Archive extends javax.swing.JFrame {
         btnorders = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -119,24 +120,36 @@ public class Archive extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnshipmentsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnshipmentsActionPerformed
-         Addmindoc addmindoc = new Addmindoc("Shipments");
-        addmindoc.setVisible(true);
+
+        ArchiveDocumentViewer adv = new ArchiveDocumentViewer("Shipments");
+        adv.setVisible(true);
+
+//        Addmindoc addmindoc = new Addmindoc("Shipments");
+//        addmindoc.setVisible(true);
     }//GEN-LAST:event_btnshipmentsActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-      VergerMain vm = new VergerMain("admin");
+        VergerMain vm = new VergerMain("admin");
         vm.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void btnFinancesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFinancesActionPerformed
-        Addmindoc addmindoc = new Addmindoc("Finances");
-        addmindoc.setVisible(true);
+
+        ArchiveDocumentViewer adv = new ArchiveDocumentViewer("Finances");
+        adv.setVisible(true);
+//        Addmindoc addmindoc = new Addmindoc("Finances");
+//        addmindoc.setVisible(true);
+
     }//GEN-LAST:event_btnFinancesActionPerformed
 
     private void btnordersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnordersActionPerformed
-         Addmindoc addmindoc = new Addmindoc("Orders");
-        addmindoc.setVisible(true);
+
+        ArchiveDocumentViewer adv = new ArchiveDocumentViewer("Orders");
+        adv.setVisible(true);
+
+//         Addmindoc addmindoc = new Addmindoc("Orders");
+//        addmindoc.setVisible(true);
     }//GEN-LAST:event_btnordersActionPerformed
 
     /**

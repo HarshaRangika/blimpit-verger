@@ -6,7 +6,7 @@
 package gui;
 
 import controller.ApiConnector;
-import controller.Client;
+import controller.UsermangementClient;
 import java.io.UnsupportedEncodingException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -237,7 +237,7 @@ public class Login extends javax.swing.JFrame {
       JSONObject jsonObjectLog = new JSONObject(); // for Store Log Count
       JSONObject jsonObjectUpdate =  new JSONObject(); // for Store updated data
       
-      Client client = new Client(); 
+      UsermangementClient client = new UsermangementClient(); 
       JSONParser parser = new JSONParser();
       JSONArray jsonArray = null;
       int count=0;

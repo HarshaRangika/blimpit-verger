@@ -25,7 +25,7 @@ public class Documentation extends javax.swing.JFrame {
         setIconImage(icon.getImage());
         initComponents();
     }
-
+    
     static public void lookandfeels() {
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
@@ -65,7 +65,7 @@ public class Documentation extends javax.swing.JFrame {
         btnMarketing = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         btnfactory.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btnfactory.setText("Factory");
