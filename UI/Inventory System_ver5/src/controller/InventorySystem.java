@@ -5,6 +5,11 @@
  */
 package controller;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.json.simple.JSONObject;
 
 /**
@@ -18,17 +23,33 @@ public class InventorySystem {
      */
     public static void main(String[] args) {
 
-        Client client = new Client();
-        JSONObject jsonobject = new JSONObject();
-        jsonobject.put("name", "Blim");
-        jsonobject.put("username", "user");
-        jsonobject.put("password", "helloThere");
-        jsonobject.put("designation", "SE");
-        
-        client.sendData("http://webhook.site/7b45d73f-3f4d-4ce8-b664-1f53676c5b95", jsonobject);
+//        XWPFDocument document = new XWPFDocument();
+//        XWPFParagraph tmpParagraph = document.createParagraph();
+//        XWPFRun tmpRun = tmpParagraph.createRun();
+//        tmpRun.setText("LALALALAALALAAAA");
+//        tmpRun.setFontSize(18);
+//        document.write(new FileOutputStream(new File("yourpathhere")));
+//        document.close();
 
-        //httppostfun();
-
+//        FileHandleingClient filehandelingClient = new FileHandleingClient();
+//        filehandelingClient.getFileFromServer("http://localhost:8080/api/fileHandler/getFile?section=Factory&name=pom.xml", "/home/neeshad/Desktop/Blimpit_GIT/blimpit-verger/TestFolder/temp/");
+//        Runtime runtime = Runtime.getRuntime();
+//            
+//        try {
+//            Process process = runtime.exec("/home/neeshad/Desktop/des/facpdf101.png");
+//            
+//        Client client = new Client();
+//        JSONObject jsonobject = new JSONObject();
+//        jsonobject.put("name", "Blim");
+//        jsonobject.put("username", "user");
+//        jsonobject.put("password", "helloThere");
+//        jsonobject.put("designation", "SE");
+//        
+//        client.sendData("http://webhook.site/7b45d73f-3f4d-4ce8-b664-1f53676c5b95", jsonobject);
+//httppostfun();
+//        } catch (IOException ex) {
+//            Logger.getLogger(InventorySystem.class.getName()).log(Level.SEVERE, null, ex);
+//        }
     }
 
 //    private static void httppostfun() {
@@ -81,5 +102,4 @@ public class InventorySystem {
 //        }
 //
 //    }
-
 }

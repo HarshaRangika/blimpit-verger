@@ -252,7 +252,7 @@ public class AdminWellcome extends javax.swing.JFrame {
     
     private void lblfactoryMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblfactoryMouseClicked
         String tttt = "Factory";
-        FileHandler t = new FileHandler(tttt);
+        FileHandler t = new FileHandler(tttt,null);
         
         JOptionPane.showMessageDialog(null, tttt);
         

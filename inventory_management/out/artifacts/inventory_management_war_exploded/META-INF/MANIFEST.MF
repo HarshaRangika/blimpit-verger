@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: harsha
+=======
+Built-By: neeshad
+>>>>>>> f7346a3dd065469761ed3179571b700ff757f8d4
 Created-By: IntelliJ IDEA
 Build-Jdk: 1.8.0_171
 

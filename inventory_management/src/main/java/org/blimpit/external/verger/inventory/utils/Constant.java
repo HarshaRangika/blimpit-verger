@@ -5,12 +5,28 @@ public interface Constant {
     String PATH_CONFFILE = "config.properties";
 
     /**
+<<<<<<< HEAD
      * DB TABLES
+=======
+     * File Store Path
+     */
+    String LOCAL_FILE_PATH = "save.file.path.local";
+    String SERVER_FILE_PATH = "server.file.path";
+
+    String FILE_PATH_FINANCES_ARCHIVE = "archive.filePath.finances";
+    String FILE_PATH_SHIPMENTS_ARCHIVE = "archive.filePath.shipments";
+    String FILE_PATH_ORDERS_ARCHIVE = "archive.filePath.orders";
+
+    /**
+     *DB TABLES
+>>>>>>> f7346a3dd065469761ed3179571b700ff757f8d4
      */
 
     String DB_TABLE_USER = "db.verger.users";
     String DB_TABLE_FEATURES = "db.verger.features";
     String DB_TABLE_FEATURESMAPPER = "db.verger.featuresmapper";
+    String DB_TABLE_DOCUMENT = "db.document.table";
+
 
     String DB_TABLE_STOCK = "db.database.table.stocks";
     String DB_TABLE_RAWMATERIAL = "db.database.table.rawmaterial";
@@ -49,5 +65,10 @@ public interface Constant {
     String FEATURES_ID = "db.column.fid";
     String FEATURES_USER_ID = "db.column.uid";
 
+    String TABLE_DOCUMENTID = "db.column.documentId";
+    String TABLE_DOCUMENTNAME = "db.column.documentName";
+    String TABLE_DOCUMENTPATH = "db.column.documentPath";
+    String TABLE_SECTION = "db.column.documentSection";
+    String TABLE_DATE_DOC = "db.column.createDate";
 
 }

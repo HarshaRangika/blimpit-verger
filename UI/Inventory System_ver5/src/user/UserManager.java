@@ -5,7 +5,7 @@
  */
 package user;
 
-import controller.Client;
+import controller.UsermangementClient;
 import gui.VergerMain;
 import javax.swing.ImageIcon;
 import javax.swing.JTable;

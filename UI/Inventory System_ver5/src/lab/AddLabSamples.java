@@ -5,6 +5,7 @@
  */
 package lab;
 
+import controller.FileHandleingClient;
 import controller.FileHandler;
 import gui.VergerMain;
 import java.awt.Color;
@@ -17,6 +18,7 @@ import javax.swing.ImageIcon;
  */
 public class AddLabSamples extends javax.swing.JFrame {
 
+    
     
 
     /**
@@ -661,9 +663,14 @@ public class AddLabSamples extends javax.swing.JFrame {
     }//GEN-LAST:event_txttypeActionPerformed
 
     private void btnattchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnattchActionPerformed
-        FileHandler filehandler = new FileHandler("Matterial");
+        FileHandler filehandler = new FileHandler("Matterial","");    /////////////////////////////////////////
         String fileName = filehandler.fileName(this);
-        lblfileName.setText(fileName);
+        
+        System.out.println("file Name :"+fileName);
+        
+        FileHandleingClient fhc = new FileHandleingClient();
+        fhc.uploadFiles(fileName,"http://localhost:8080/api/fileHandler/fileUploader?destination=Laboratory");
+        
     }//GEN-LAST:event_btnattchActionPerformed
 
     static private void lookandfeels() {

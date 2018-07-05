@@ -1,6 +1,6 @@
 package gui;
 
-import controller.Client;
+import controller.UsermangementClient;
 import java.io.UnsupportedEncodingException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -144,7 +144,7 @@ public class Password_Reset extends javax.swing.JFrame {
         String Password1 = jPasswordField1.getText();
         String Password2 = jPasswordField2.getText();
         JSONObject jsonObjectPassword = new JSONObject();
-        Client client = new Client(); 
+        UsermangementClient client = new UsermangementClient(); 
         
         if(Password1.equals(Password2))
         {
