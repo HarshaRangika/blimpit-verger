@@ -96,5 +96,39 @@ public class ApiConnector {
 
         return sb.toString();
     }
+    
+    public String put(String URL, JSONObject jsonmsg) {
+
+        HttpClient httpClient = HttpClientBuilder.create().build();
+        HttpPost post = new HttpPost(URL);
+        StringEntity postingString = null;
+        HttpResponse response;
+        StringBuilder res = null;
+
+        try {
+            postingString = new StringEntity(jsonmsg.toString());
+            post.setEntity(postingString);
+            post.setHeader("Content-type", "application/json");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            response = httpClient.execute(post);
+            BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
+            res = new StringBuilder();
+            String line;
+            while ((line = rd.readLine()) != null) {
+
+                res.append(line);
+                res.append('\r');
+
+            }
+            rd.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return res.toString();
+    }
 
 }

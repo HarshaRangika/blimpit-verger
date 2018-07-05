@@ -3,11 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/binara/BlipmIT/blimpit-externals/verger/UI/Inventory%20System_ver5/src/user/UserReg.java</file>
-            <file>file:/home/binara/BlipmIT/blimpit-externals/verger/UI/Inventory%20System_ver5/src/user/UserManager.java</file>
-            <file>file:/home/binara/BlipmIT/blimpit-externals/verger/UI/Inventory%20System_ver5/src/user/UserVeiwe.java</file>
-            <file>file:/home/binara/BlipmIT/blimpit-externals/verger/UI/Inventory%20System_ver5/src/controller/Client.java</file>
-            <file>file:/home/binara/BlipmIT/blimpit-externals/verger/UI/Inventory%20System_ver5/src/gui/Login.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/production/AddStocks.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/production/Materials.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/production/Products.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/gui/VergerMain.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/production/UpdateMaterials.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/controller/Client.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/production/UpdateProducts.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/production/UpdateStocks.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/production/Stocks.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/production/AddProducts.java</file>
+            <file>file:/home/harsha/BlimpItGit/blimpit-verger/UI/Inventory%20System_ver5/src/production/AddMaterials.java</file>
         </group>
     </open-files>
 </project-private>
