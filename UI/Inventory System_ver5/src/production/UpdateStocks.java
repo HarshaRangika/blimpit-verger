@@ -7,7 +7,7 @@ package production;
 
 import com.toedter.calendar.JTextFieldDateEditor;
 import controller.ApiConnector;
-import controller.Client;
+import controller.UsermangementClient;
 import controller.FileHandler;
 import controller.ProductController;
 import controller.StockController;
@@ -524,7 +524,7 @@ public class UpdateStocks extends javax.swing.JFrame {
             }
             else {
                 org.json.simple.JSONObject jobject = new org.json.simple.JSONObject();
-                Client clnt = new Client();
+                UsermangementClient clnt = new UsermangementClient();
 
                 product = jComboBox1.getSelectedItem().toString();
 
@@ -581,7 +581,7 @@ public class UpdateStocks extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 
-        FileHandler filehandler = new FileHandler("Matterial");
+        FileHandler filehandler = new FileHandler("Matterial" , "/home/harsha/Desktop");
         filehandler.fileName(this);
         fileName = filehandler.fileName(this);
         

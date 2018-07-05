@@ -6,7 +6,7 @@
 package production;
 
 import controller.ApiConnector;
-import controller.Client;
+import controller.UsermangementClient;
 import controller.FileHandler;
 import controller.ProductController;
 import gui.VergerMain;
@@ -614,7 +614,7 @@ public class AddMaterials extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Please Select a Product.");
             } else {
                 org.json.simple.JSONObject jobject = new org.json.simple.JSONObject();
-                Client clnt = new Client();
+                UsermangementClient clnt = new UsermangementClient();
 
                 String product = jComboBox1.getSelectedItem().toString();
 

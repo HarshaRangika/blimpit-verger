@@ -163,7 +163,7 @@ public class Formulation extends javax.swing.JFrame {
                         int noofrows = row.getLastCellNum();
                         for (int i = 0; i < noofrows; i++) {
                             //To handle empty excel cells
-                            HSSFCell cell = row.getCell(i, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+                            HSSFCell cell = row.getCell(i, Row.CREATE_NULL_AS_BLANK);
                             System.out.println(cell.getCellType());
                             d.add(cell.toString());
 
@@ -216,7 +216,7 @@ public class Formulation extends javax.swing.JFrame {
                         int noofrows = row.getLastCellNum();
                         for (int i = 0; i < noofrows; i++) {
                             //To handle empty excel cells
-                            XSSFCell cell = row.getCell(i, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+                            XSSFCell cell = row.getCell(i, Row.CREATE_NULL_AS_BLANK);
                             System.out.println(cell.getCellType());
                             d.add(cell.toString());
 

@@ -5,7 +5,7 @@
  */
 package production;
 
-import controller.Client;
+import controller.UsermangementClient;
 import gui.VergerMain;
 import javax.swing.ImageIcon;
 import javax.swing.JDialog;
@@ -184,7 +184,7 @@ public class AddProducts extends javax.swing.JFrame {
 
             } else {
                 JSONObject job = new JSONObject();
-                Client cnt = new Client();
+                UsermangementClient cnt = new UsermangementClient();
 
                 job.put("productID", jTextId.getText());
                 job.put("productName", jTextName.getText());

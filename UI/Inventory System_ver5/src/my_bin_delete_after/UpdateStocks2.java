@@ -8,7 +8,7 @@ package my_bin_delete_after;
 import production.*;
 import com.toedter.calendar.JTextFieldDateEditor;
 import controller.ApiConnector;
-import controller.Client;
+import controller.UsermangementClient;
 import controller.ProductController;
 import controller.StockController;
 import gui.VergerMain;
@@ -500,7 +500,7 @@ public class UpdateStocks2 extends javax.swing.JFrame {
 
             } else {
                 org.json.simple.JSONObject jobject = new org.json.simple.JSONObject();
-                Client clnt = new Client();
+                UsermangementClient clnt = new UsermangementClient();
 
                 product = jComboBox1.getSelectedItem().toString();
 

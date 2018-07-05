@@ -6,7 +6,7 @@
 package production;
 
 import controller.ApiConnector;
-import controller.Client;
+import controller.UsermangementClient;
 import controller.FileHandler;
 import controller.MaterialController;
 import controller.ProductController;
@@ -379,7 +379,7 @@ public class UpdateMaterials extends javax.swing.JFrame {
 
     private void jButton_attachActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_attachActionPerformed
 
-        FileHandler filehandler = new FileHandler("Matterial");
+        FileHandler filehandler = new FileHandler("Matterial" , "/home/harsha/Desktop");
         filehandler.fileName(this);
         fileName = filehandler.fileName(this);
 
@@ -418,7 +418,7 @@ public class UpdateMaterials extends javax.swing.JFrame {
             } else {
 
                 org.json.simple.JSONObject jobject = new org.json.simple.JSONObject();
-                Client clnt = new Client();
+                UsermangementClient clnt = new UsermangementClient();
 
                 material = jComboBox1.getSelectedItem().toString();
 

@@ -8,7 +8,7 @@ package production;
 import com.toedter.calendar.JDateChooser;
 import com.toedter.calendar.JTextFieldDateEditor;
 import controller.ApiConnector;
-import controller.Client;
+import controller.UsermangementClient;
 import controller.FileHandler;
 import controller.ProductController;
 import gui.VergerMain;
@@ -383,7 +383,7 @@ public class AddStocks extends javax.swing.JFrame {
             }
             else {
                 org.json.simple.JSONObject jobject = new org.json.simple.JSONObject();
-                Client clnt = new Client();
+                UsermangementClient clnt = new UsermangementClient();
 
                 String product = jComboBox1.getSelectedItem().toString();
 
@@ -455,7 +455,7 @@ public class AddStocks extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
 
-        FileHandler filehandler = new FileHandler("Matterial");
+        FileHandler filehandler = new FileHandler("Matterial" , "/home/harsha/Desktop");
         filehandler.fileName(this);
         fileName = filehandler.fileName(this);
         

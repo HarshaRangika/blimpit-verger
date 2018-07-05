@@ -6,7 +6,7 @@
 package production;
 
 import controller.ApiConnector;
-import controller.Client;
+import controller.UsermangementClient;
 import gui.VergerMain;
 import java.util.Vector;
 import javax.swing.ImageIcon;
@@ -212,7 +212,7 @@ public class UpdateProducts extends javax.swing.JFrame {
             }else{
                 
                 org.json.simple.JSONObject jobject = new org.json.simple.JSONObject();
-            Client clnt = new Client();
+            UsermangementClient clnt = new UsermangementClient();
 
             jobject.put("productID", jTextField_id.getText().toString());
             jobject.put("productName", jTextField_name.getText().toString());
